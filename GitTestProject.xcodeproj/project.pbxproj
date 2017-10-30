@@ -14,6 +14,7 @@
 		49AC89231FA7BDAD009C837F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AC89211FA7BDAD009C837F /* LaunchScreen.storyboard */; };
 		49AC892E1FA7BDAD009C837F /* GitTestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AC892D1FA7BDAD009C837F /* GitTestProjectTests.swift */; };
 		49AC89391FA7BDAD009C837F /* GitTestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AC89381FA7BDAD009C837F /* GitTestProjectUITests.swift */; };
+		49AC89471FA7C156009C837F /* MapApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AC89461FA7C156009C837F /* MapApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		49AC89341FA7BDAD009C837F /* GitTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AC89381FA7BDAD009C837F /* GitTestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTestProjectUITests.swift; sourceTree = "<group>"; };
 		49AC893A1FA7BDAD009C837F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49AC89461FA7C156009C837F /* MapApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				49AC89181FA7BDAD009C837F /* AppDelegate.swift */,
 				49AC891A1FA7BDAD009C837F /* ViewController.swift */,
+				49AC89461FA7C156009C837F /* MapApi.swift */,
 				49AC891C1FA7BDAD009C837F /* Main.storyboard */,
 				49AC891F1FA7BDAD009C837F /* Assets.xcassets */,
 				49AC89211FA7BDAD009C837F /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49AC891B1FA7BDAD009C837F /* ViewController.swift in Sources */,
+				49AC89471FA7C156009C837F /* MapApi.swift in Sources */,
 				49AC89191FA7BDAD009C837F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
